@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <title>Mi Primer Website</title>
+  </head>
+  <body>
+    <header class="container-nav">
+      <nav class="navbar" role="navigation">
+        <div class="logo"></div>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="./pages/about.html">Nosotros</a></li>
+          <li><a href="./pages/services.html">Servicios</a></li>
+          <li><a href="./pages/contact.html">Contactanos</a></li>
+        </ul>
+      </nav>
+      <button class="button-menu-toggle">Menu</button>
+    </header>
+    <main>
+      <div class="container">
+        <h1>Bienvenidos a mi primer Website</h1>
+        <section>
+          <h2>Presentación</h2>
+          <p>Soy Nicolás, ¡y esta es mi primera página web!</p>
+          <p>
+            Estoy aprendiendo desarrollo web para crear sitios web visualmente
+            atrapantes y funcionales.
+          </p>
+        </section>
+        <section>
+          <h2>Lo que se viene...</h2>
+          <p>
+            A lo largo de este curso, estaré aprendiendo HTML, CSS y JavaScript.
+            Estos lenguajes me ayudarán a crear una base sólida en el desarrollo
+            web front-end.
+          </p>
+        </section>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/qWcwFMAqpME"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="footer-content">
+          <p>Creado por: Nicolás Cosentino</p>
+          <button onclick="showAlert()" class="button" aria-label="Haz clic en mí">
+            ¡Haz clic en mí!
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./scripts/alertaBotonFooter.js"></script>
+  <script src="./scripts/menu.js"></script>
+</html>
